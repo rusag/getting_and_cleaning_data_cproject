@@ -1,9 +1,9 @@
 #Course Project
 
-##Load Data
-##Merge
-##Extract columns with mean and SD
-##Export the datased in txt file
+##1. Load Data
+##2. Merge
+##3. Extract columns with mean and SD
+##4. Export the datased in txt file
 
 ####Load Data
 Create paths to directories of the files to be used

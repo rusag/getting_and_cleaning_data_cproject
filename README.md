@@ -1,29 +1,27 @@
-getting_and_cleaning_data_cproject
+#Course Project
 
-#create path to files
+##Load Data
+##Merge
+##Extract columns with mean and SD
+##Export the datased in txt file
 
-#import features
+##Load Data
+Create paths to directories of the files to be used
+Import features
+Import train datasets and assign column names from features
+Import test datasets and assign column names from features
+Bind subjects with train and test and change colname to subject
+Bind activities with train and test and change colname to activity
 
-#import train datasets and assign column names from features
+##Merge
+Merge test and training datasets into one dataset
 
-#import test datasets and assign column names from features
-subj_test <- read.table("subject_test.txt")
+##Extract columns with meand and SD
+First create a vector indicating column indexes with mean or SD
+Using column indexes extract measurements on mean and std for each measurement into a new dataset
+Use descriptive activity names to name the activities in the dataset
+Make the dataset more readable
 
-#bind subjects with train and test and change colname to subject
-
-#bind activities with train and test and change colname to activity
-
-#merge test and traing
-
-#create a vector indicating column indexes with mean or std
-#+2 is because we have two new columns on the left -> subject and activity
-
-extract measurements on mean and std for each measurement
-
-Use descriptive activity names to name the activities in the data set
-
-make the dataset more readable
-
-creates independent tidy data set with the average of each variable for each activity and each subject
-
-export the file with output
+##Export the datased in txt file
+Create independent tidy data set with the average of each variable for each activity and each subject
+Export the file with output into "Course_Project.txt" with row.names = FALSE
